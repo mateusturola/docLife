@@ -5,7 +5,7 @@ This directory contains static images for the DocLife Help Desk system.
 ## Files
 
 - `logo.svg` - Main logo for the application
-- `favicon.ico` - Favicon (currently using SVG placeholder)
+- `favicon.svg` - Favicon in SVG format
 
 ## Adding Images
 
