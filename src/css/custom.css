@@ -1,0 +1,104 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2c3c63;
+  --ifm-color-primary-dark: #263550;
+  --ifm-color-primary-darker: #233247;
+  --ifm-color-primary-darkest: #1c293a;
+  --ifm-color-primary-light: #324376;
+  --ifm-color-primary-lighter: #354679;
+  --ifm-color-primary-lightest: #3d4f86;
+  
+  --ifm-color-secondary: #4e79f9;
+  --ifm-color-secondary-dark: #2d5df7;
+  --ifm-color-secondary-darker: #1d51f6;
+  --ifm-color-secondary-darkest: #0d3cd4;
+  --ifm-color-secondary-light: #6f95fb;
+  --ifm-color-secondary-lighter: #7fa1fb;
+  --ifm-color-secondary-lightest: #a0b9fc;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4e79f9;
+  --ifm-color-primary-dark: #2d5df7;
+  --ifm-color-primary-darker: #1d51f6;
+  --ifm-color-primary-darkest: #0d3cd4;
+  --ifm-color-primary-light: #6f95fb;
+  --ifm-color-primary-lighter: #7fa1fb;
+  --ifm-color-primary-lightest: #a0b9fc;
+  
+  --ifm-color-secondary: #2c3c63;
+  --ifm-color-secondary-dark: #263550;
+  --ifm-color-secondary-darker: #233247;
+  --ifm-color-secondary-darkest: #1c293a;
+  --ifm-color-secondary-light: #324376;
+  --ifm-color-secondary-lighter: #354679;
+  --ifm-color-secondary-lightest: #3d4f86;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles */
+.hero {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+.navbar {
+  background-color: var(--ifm-color-primary);
+}
+
+.navbar__item {
+  color: white;
+}
+
+.navbar__link {
+  color: white;
+}
+
+.navbar__link:hover {
+  color: var(--ifm-color-secondary);
+}
+
+.footer {
+  background-color: var(--ifm-color-primary);
+}
+
+/* Module badges */
+.module-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.module-badge--lifebooks {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.module-badge--kids {
+  background-color: #4ecdc4;
+  color: white;
+}
+
+.module-badge--volts {
+  background-color: #ffe66d;
+  color: #2c3c63;
+}
+
+.module-badge--backoffice {
+  background-color: #a8dadc;
+  color: #2c3c63;
+}
